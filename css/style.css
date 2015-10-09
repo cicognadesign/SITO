@@ -1,0 +1,128 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {font-family: 'Ubuntu', sans-serif;
+
+}
+nav ul a,
+nav .brand-logo {
+  color: #ff6f00 ;
+}
+
+nav .brand-logo {
+  font-family: 'Architects Daughter', cursive;
+
+}
+.nav-wrapper {
+    padding: 0 50px;
+}
+
+p  {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #ff6f00;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
+
+
+.header {
+  margin-top:10%;
+}
+
+.header-subtitle {
+  margin-top: 20%;
+  font-size: 1.3em;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;}
+  .nav-wrapper {
+    padding: 0 5px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.col-servizio {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#servizio h5 {
+  font-size: 2.1em; 
+  line-height: 1.1em;
+
+}
+
+.section-registrazione{
+  height: 100%;
+  width: 100%;
+}
+.registrazione-icon {
+  font-size: 6em;
+  margin-top: 40px;
+}
+
+.btn-registrazione {
+  width: 100%
+}
+
+.col-gallery {
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.btn-gallery {
+  width: 100%
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color:#fbc02d ;
+
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color:#fff;
+  padding: 0 20px;
+
+}
+
+.social-icon:hover {
+  color:red;
+};
