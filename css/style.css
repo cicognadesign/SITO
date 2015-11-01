@@ -3,9 +3,9 @@
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
- * Made By MaterializeCSS.com
  */
 
+ * Made By MaterializeCSS.com
 body {font-family: 'Ubuntu', sans-serif;
 
 }
@@ -93,7 +93,7 @@ p  {
   width: 100%;
 }
 .registrazione-icon {
-  font-size: 6em;
+  font-size: 4em;
   margin-top: 40px;
 }
 
@@ -109,6 +109,20 @@ p  {
 .btn-gallery {
   width: 100%
 }
+.section-prodotti{
+  height: 100%;
+  width: 100%;
+}
+.prodotti-icon {
+  font-size: 6em;
+  margin-top: 40px;
+}
+
+.btn-prodotti {
+  width: 50%;
+  color:#fff;
+}
+
 
 footer.page-footer {
   margin: 0;
@@ -125,4 +139,8 @@ footer.page-footer {
 
 .social-icon:hover {
   color:red;
-};
+}
+
+.prodotti h3 {
+  margin: 5% 0 2% 0;
+}
